@@ -1,0 +1,1 @@
+/usr/bin/c++     -fPIC CMakeFiles/exporter.dir/MapConverter.o CMakeFiles/exporter.dir/GridMap.o  -o exporter -rdynamic 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tiziano/wowbotgit/vmapextension/GridMap.cpp
+GridMap.h
+/home/tiziano/wowbotgit/vmapextension/GridMap.h
+
+/home/tiziano/wowbotgit/vmapextension/GridMap.h
+stdlib.h
+-
+stdio.h
+-
+iostream
+-
+
+/home/tiziano/wowbotgit/vmapextension/MapConverter.cpp
+stdio.h
+-
+IL/il.h
+-
+IL/ilu.h
+-
+iostream
+-
+stdlib.h
+-
+stdarg.h
+-
+GridMap.h
+/home/tiziano/wowbotgit/vmapextension/GridMap.h
+

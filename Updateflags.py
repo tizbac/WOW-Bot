@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+UPDATETYPE_VALUES               = 0
+UPDATETYPE_MOVEMENT             = 1
+UPDATETYPE_CREATE_OBJECT        = 2
+UPDATETYPE_CREATE_OBJECT2       = 3
+UPDATETYPE_OUT_OF_RANGE_OBJECTS = 4
+UPDATETYPE_NEAR_OBJECTS         = 5
+updatetypes = {0:"Values",1:"Movement",2:"Create",3:"Create2",4:"OutOfRange",5:"Near"}
+UPDATEFLAG_NONE         = 0x0000
+UPDATEFLAG_SELF         = 0x0001
+UPDATEFLAG_TRANSPORT    = 0x0002
+UPDATEFLAG_HAS_TARGET   = 0x0004
+UPDATEFLAG_LOWGUID      = 0x0008
+UPDATEFLAG_HIGHGUID     = 0x0010
+UPDATEFLAG_LIVING       = 0x0020
+UPDATEFLAG_HAS_POSITION = 0x0040
+TYPEID_OBJECT        = 0
+TYPEID_ITEM          = 1
+TYPEID_CONTAINER     = 2
+TYPEID_UNIT          = 3
+TYPEID_PLAYER        = 4
+TYPEID_GAMEOBJECT    = 5
+TYPEID_DYNAMICOBJECT = 6
+TYPEID_CORPSE        = 7
+otypes = {0:"objects",1:"items",2:"containers",3:"units",4:"players",5:"gobjects",6:"dynobjects",7:"corpses"}
